@@ -1,6 +1,6 @@
 # 📝 Basic Notes App
 
-A simple Flutter notes app with add, edit, delete, and persistent local storage using SharedPreferences.
+A simple Flutter notes app with add, edit, delete and persistent local storage using SharedPreferences.
 
 ---
 
@@ -18,8 +18,6 @@ A simple Flutter notes app with add, edit, delete, and persistent local storage 
 | Home Screen                                 | Edit Dialog                                 |
 |---------------------------------------------|---------------------------------------------|
 | ![Home Screen](screenshots/home_screen.png) | ![Edit Dialog](screenshots/edit_dialog.png) |
-
-*(Place your PNG files inside a `screenshots` folder in the root of your repo.)*
 
 ---
 
