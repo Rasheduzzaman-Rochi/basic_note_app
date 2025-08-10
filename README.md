@@ -1,16 +1,37 @@
-# basic_notes_app
+# 📝 Basic Notes App
 
-A new Flutter project.
+A simple Flutter notes app with add, edit, delete, and persistent local storage using SharedPreferences.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- ➕ Add notes with a simple input field
+- ✏️ Edit existing notes through a popup dialog
+- 🗑 Delete notes instantly
+- 💾 Persistent local storage (notes stay after app restart)
+- 🎨 Clean Material UI
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Home Screen                                 | Edit Dialog                                 |
+|---------------------------------------------|---------------------------------------------|
+| ![Home Screen](screenshots/home_screen.png) | ![Edit Dialog](screenshots/edit_dialog.png) |
+
+*(Place your PNG files inside a `screenshots` folder in the root of your repo.)*
+
+---
+
+## 🛠 Tech Stack
+- **Flutter** (Dart)
+- **SharedPreferences** for local storage
+
+---
+
+## 🚀 How to Run
+```bash
+git clone <repo-link>
+cd <project-folder>
+flutter pub get
+flutter run
